@@ -1,2 +1,4 @@
 # Invoice-Payment-Automation-System
----
+Invoice Payment Tracking System, the centralized intelligent component, will streamline the exchange of information between the Departments/Organization/Users involved. The single window internet application will provide global visibility and access to the central database populated from the information exchanged between the stakeholders. iPayable Portal for the communities will provide the interface for the stakeholders to interact with system and also provide a platform for publishing information to the peoples involved in iPayable communities. 
+
+The application is a WEB-based information storage and retrieval system that will replace the long-outdated manual system to help the task maintaining the processes in a much more organized way. Currently it involves lot of paper work thus requires time and is also prone to error thus the benefit with a new online system would be that work could be done much faster and in a much more accurate manner.
