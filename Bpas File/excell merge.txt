@@ -1,0 +1,42 @@
+2nd Time:
+
+Sub Merge()
+Dim rng As Range
+Set ws = Worksheets("Sheet2") 'Change your sheet name
+Set rng = ws.Range("A1").CurrentRegion
+With ws
+    For i = rng.Rows.Count To 1 Step -1
+        If .Cells(i, 5) = "" Then
+            .Cells(i, 3).Offset(-1) = .Cells(i, 3)
+            .Cells(i, 4).Offset(-1) = .Cells(i, 4).Offset(-1) & " " & .Cells(i, 4)
+            .Rows(i).EntireRow.Delete
+        End If
+    Next
+End With
+End Sub
+
+
+1st Time:
+
+Option Explicit
+
+Sub Merge_Same_Cells()
+
+Application.DisplayAlerts = False
+
+Dim rng As Range
+
+MergeCells:
+
+For Each rng In Selection
+
+If rng.Value = rng.Offset(1, 0).Value And rng.Value <> "" Then
+Range(rng, rng.Offset(1, 0)).Merge
+Range(rng, rng.Offset(1, 0)).HorizontalAlignment = xlCenter
+Range(rng, rng.Offset(1, 0)).VerticalAlignment = xlCenter
+GoTo MergeCells
+End If
+Next
+
+
+End Sub

@@ -1,0 +1,17 @@
+Need to shipt left side Invoice Nature type.
+After Print bar code system should not show invalid invoice.
+User can add their signature in edit screen.
+Need to show Total payable amount in invoice register incase vds and tds not done.
+
+Treasury
+1) Need to show Invoice Register.
+2) Need to show cheque disbursement slip in treasury department.
+3) Need to show Cheque disbursement Register.
+
+Finance
+1) Need to show invoice register.
+2) Need to show Cheque disbursement Register.
+
+Release to Next Version: 
+1) Need invoice status view screen in Treasury Mode.
+2) Supplier name should not show for every order in all Register.
